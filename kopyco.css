@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+}
+.header{
+    
+    width:100%;
+    height: 205px;
+    background-color: black;
+    text-align: center;
+    right: 0;
+}
+.site-title{
+    color: #b7b7b7;
+    font-family: "Playfair Display", serif;
+    font-size: 2.75rem;
+    display:inline-block;
+    align-items: center;
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+}
+.site-description{
+    line-height: 1.5;
+    letter-spacing: 5px;
+    font-family:sans-serif;
+    color: #b7b7b7 ;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.site-header{
+    padding-top: 39px;
+}
+
+
+.site-headermenu{
+    
+    display:flex;
+    justify-content: center;
+    /* align-items: centre; */
+    
+}
+.menu-text{
+    line-height: 2px;
+    color: white;
+    text-decoration: none;
+    font-size:14px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 35px;
+    padding-top:34px;
+    
+}
+.header a:hover{
+    color: rgb(243, 101, 101);
+}
+.site-title:hover{
+color: rgb(226, 95, 95);
+}
+.site-headermenu{
+    display: inline-block;
+    width:89%;
+    border-top: 1px solid rgba(201, 199, 199, 0.923) ;
+    margin-top: 0.5px;
+    padding-left: 2px;
+    padding-top: 38x;
+    justify-content: center;
+    align-items: center;
+}
+.siteheader-menu .home{
+    border-color: red;
+    content: "";
+        border-top: 1px solid;
+        width: calc(100% - 32px);
+        height: 1px;
+        display: block;
+        position: absolute;
+        top: -1px;
+}
+.first-page{
+    width:100%;
+    height:709px;
+background-image: url(https://kopikousa.com/wp-content/uploads/2020/10/cropped-bigstock-157064345.png);
+background-size: cover;
+}
+.third-part{
+    background-color: black;
+    width:100%;
+    height:400px;
+    margin-top: -20px;
+}
+ .text{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.sentence{
+    color:#b7b7b7;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    /* width:203px; */
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    /* padding-left: 500px; */
+
+     /* display:block;  */
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top:114px;
+}
+.texts{
+    font-weight: 700px;
+    /* box-sizing: border-box; */
+    /* max-width: 2px; */
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    
+    line-height: 1.6em;
+    letter-spacing: -0.6px 
+}
+.text2{
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6em;
+    
+}
+#home{
+    color:#db4f3d;
+}
+
+.second-page{
+    background-color: black;
+    width:100%;
+    height:700px;
+
+}
+.image-2{
+    width: 70%;
+    height: 71%;
+    margin-left: 195px;
+    object-fit: contain;
+    overflow: hidden;
+}
+/* .footer{ */
+    /* background-color: black; */
+    /* width: 100%; */
+    
+/* } */
+.icons{
+    width: 47px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 103px;
+    /* align-items: center; */
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-2{
+background-color:black;
+width: 100%;
+height:70px;
+display: flex;
+
+
+justify-content: center;
+align-items: centre;
+gap:16px;
+}
+.footer-text1{
+    color:rgb(169, 168, 168);
+    font-size:13px;
+    font-family: sans-serif;
+
+}
+.footer-text2{
+    color: white;
+    text-decoration: none;
+    font-size:13px;
+}
+.footer-text2:hover{
+    color: #db4f3d;
+    text-decoration: underline;
+}
